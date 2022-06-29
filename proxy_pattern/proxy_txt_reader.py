@@ -1,6 +1,6 @@
-from pythonProject.Repository_6.proxy_pattern.abstract_reader import Reader
-from pythonProject.Repository_6.proxy_pattern.txt_reader import TxtReader
-from pythonProject.Repository_6.proxy_pattern.txt_writer import TxtWriter
+from pythonProject.Repository_7.proxy_pattern.abstract_reader import Reader
+from pythonProject.Repository_7.proxy_pattern.txt_reader import TxtReader
+from pythonProject.Repository_7.proxy_pattern.txt_writer import TxtWriter
 
 class TxtProxyReader(Reader):
     def __init__(self, txt_reader: TxtReader):

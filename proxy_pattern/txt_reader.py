@@ -1,4 +1,4 @@
-from pythonProject.Repository_6.proxy_pattern.abstract_reader import Reader
+from pythonProject.Repository_7.proxy_pattern.abstract_reader import Reader
 
 
 class TxtReader(Reader):
